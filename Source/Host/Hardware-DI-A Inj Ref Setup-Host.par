@@ -1,0 +1,9 @@
+SCM Pairings File 
+v1.1
+Target Class	Target Group	Target Name	Host Item
+HW	DI-A	RefInjCurrentMultiplier	RefInjCurrentMultiplier
+HW	DI-A	RefInjCurrentOffset	RefInjCurrentOffset
+HW	DI-A	RefInjTimeAxisMultiplier	RefInjTimeAxisMultiplier
+HW	DI-A	RefInjTimeAxisOffset	RefInjTimeAxisOffset
+HW	DI-A	RefInjVoltageMultiplier	RefInjVoltageMultiplier
+HW	DI-A	RefInjVoltageOffset	RefInjVoltageOffset

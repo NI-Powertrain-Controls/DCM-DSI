@@ -1,0 +1,16 @@
+SCM Pairings File 
+v1.1
+Target Class	Target Group	Target Name	Host Item
+HW	DCM	BleedFaultFilterTime	BleedFaultFilterTime
+HW	DCM	DI-HSFaultFilterTime	DI-HSFaultFilterTime
+HW	DCM	HHISeqDurPS	HHISeqDurPS
+HW	DCM	HHOpenThreshold	HHOpenThreshold
+HW	DCM	HHShootThroughTime	HHShootThroughTime
+HW	DCM	ID	HW|DCM|ID
+HW	DCM	IOLockMPRDDisable	IOLockMPRDDisable
+HW	DCM	KeyThreshold	KeyThreshold
+HW	DCM	MPRD	MPRD
+HW	DCM	State	State
+HW	DCM	UseKey	UseKey
+HW	DCM	UserLED1	UserLED1
+HW	DCM	UserLED2	UserLED2

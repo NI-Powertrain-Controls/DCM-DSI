@@ -1,0 +1,28 @@
+SCM Pairings File 
+v1.1
+Target Class	Target Group	Target Name	Host Item
+ENG	RPC	Fault	ENG|RPC|Fault
+ENG	RPC	ClearFaults	ENG|RPC|ClearFaults
+HW	DI-A	InjectEnable	DI-A_InjectEnable
+HW	DI-B	InjectEnable	DI-B_InjectEnable
+HW	EPTx	Speed	Speed
+HW	EPTx	Sync	Sync
+HW	EPTx	SyncEnable	SyncEnable
+HW	DCM	Fault	HW|DCM|Fault
+HW	DCM	AckFaults	HW|DCM|AckFaults
+HW	DCM	IO_Lock	IO_Lock
+HW	DCM	MPRD	MPRD
+HW	DCM	State	State
+HW	DCM	UserOS	UserOS
+HW	DCM	UserOSTime	UserOSTime
+SYS	Exec	CalLoading	SYS|Exec|CalLoading
+SYS	Exec	Username	SYS|Exec|Username
+SYS	Exec	Password	SYS|Exec|Password
+SYS	Plot	IDs	SYS|Plot|IDs
+SYS	Plot	Names	SYS|Plot|Names
+SYS	Plot	Units	SYS|Plot|Units
+SYS	Plot	Select	SYS|Plot|Select
+SYS	Plot	Values	SYS|Plot|Values
+SYS	Host	Fault	SYS|Host|Fault
+SYS	User	Fault	SYS|User|Fault
+SYS	User	AckFaults	SYS|User|AckFaults

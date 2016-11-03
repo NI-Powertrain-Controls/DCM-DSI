@@ -1,0 +1,12 @@
+SCM Pairings File 
+v1.1
+Target Class	Target Group	Target Name	Host Item
+HW	DI-Scope	ChanSelect1	ChanSelect1
+HW	DI-Scope	ChanSelect2	ChanSelect2
+HW	DI-Scope	ChanSelect3	ChanSelect3
+HW	DI-Scope	ChanSelect4	ChanSelect4
+HW	DI-Scope	Data	Data
+HW	DI-Scope	dt	dt
+HW	DI-Scope	Length	Length
+HW	DI-Scope	ScopeEnable	ScopeEnable
+HW	DI-Scope	ScopeEvent	ScopeEvent

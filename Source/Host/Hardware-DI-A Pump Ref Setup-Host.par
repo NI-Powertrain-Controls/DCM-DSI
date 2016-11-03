@@ -1,0 +1,9 @@
+SCM Pairings File 
+v1.1
+Target Class	Target Group	Target Name	Host Item
+HW	DI-A	RefPumpCurrentMultiplier	RefPumpCurrentMultiplier
+HW	DI-A	RefPumpCurrentOffset	RefPumpCurrentOffset
+HW	DI-A	RefPumpTimeAxisMultiplier	RefPumpTimeAxisMultiplier
+HW	DI-A	RefPumpTimeAxisOffset	RefPumpTimeAxisOffset
+HW	DI-A	RefPumpVoltageMultiplier	RefPumpVoltageMultiplier
+HW	DI-A	RefPumpVoltageOffset	RefPumpVoltageOffset

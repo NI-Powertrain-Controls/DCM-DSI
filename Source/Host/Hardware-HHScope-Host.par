@@ -1,0 +1,7 @@
+SCM Pairings File 
+v1.1
+Target Class	Target Group	Target Name	Host Item
+HW	HH-Scope	Capture	Capture
+HW	HH-Scope	Data	Data
+HW	HH-Scope	Length	Length
+HW	HH-Scope	ScopeEvent	ScopeEvent

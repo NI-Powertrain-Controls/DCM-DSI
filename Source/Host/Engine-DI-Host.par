@@ -1,0 +1,24 @@
+SCM Pairings File 
+v1.1
+Target Class	Target Group	Target Name	Host Item
+ENG	Channels	Names	Channels|Names
+ENG	DI	CylFuelQtys	CylFuelQtys
+ENG	DI	CylSplits	CylSplits
+ENG	DI	DI-A_RailP	DI-A_RailP
+ENG	DI	DI-A_RailPIndex	DI-A_RailPIndex
+ENG	DI	DI-B_RailP	DI-B_RailP
+ENG	DI	DI-B_RailPIndex	DI-B_RailPIndex
+ENG	DI	UserParamNames	ENG|DI|UserParamNames
+ENG	DI	UserParamValues	ENG|DI|UserParamValues
+ENG	DI	UserResults	ENG|DI|UserResults
+ENG	DI	InjectorA1-00	InjectorA1-00
+ENG	DI	InjectorB1-00	InjectorB1-00
+ENG	DI	InjQtys_Man	InjQtys_Man
+ENG	DI	InjQtys_ManE	InjQtys_ManE
+ENG	DI	InjQtys	InjQtys
+ENG	DI	InjSplits	InjSplits
+ENG	DI	Mode	Mode
+ENG	DI	PluginError	PluginError
+ENG	DI	TotalFuelQty	TotalFuelQty
+ENG	DI	UserVI_Filename	UserVI_Filename
+ENG	DI	UserVI_Reload	UserVI_Reload

@@ -1,0 +1,14 @@
+SCM Pairings File 
+v1.1
+Target Class	Target Group	Target Name	Host Item
+HW	Knock	CylinderOffsets	CylinderOffsets
+HW	Knock	HighCutoff	HighCutoff
+HW	Knock	Knock	Knock
+HW	Knock	KnockEnd	KnockEnd
+HW	Knock	KnockIntensity	KnockIntensity
+HW	Knock	KnockStart	KnockStart
+HW	Knock	LowCutoff	LowCutoff
+HW	Knock	RefEnd	RefEnd
+HW	Knock	RefStart	RefStart
+HW	Knock	SensorSelect	SensorSelect
+HW	Knock	Threshold	Threshold

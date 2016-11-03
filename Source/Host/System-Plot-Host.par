@@ -1,0 +1,17 @@
+SCM Pairings File 
+v1.1
+Target Class	Target Group	Target Name	Host Item
+SYS	Plot	Dims	SYS|Plot|Dims
+SYS	Plot	IDs	SYS|Plot|IDs
+SYS	Plot	Max	SYS|Plot|Max
+SYS	Plot	Min	SYS|Plot|Min
+SYS	Plot	Names	SYS|Plot|Names
+SYS	Plot	Select	SYS|Plot|Select
+SYS	Plot	Type	SYS|Plot|Type
+SYS	Plot	Unit	SYS|Plot|Unit
+SYS	Plot	Units	SYS|Plot|Units
+SYS	Plot	Values	SYS|Plot|Values
+SYS	Plot	1DTLU	SYS|Plot|1DTLU
+SYS	Plot	2DTLU	SYS|Plot|2DTLU
+SYS	Plot	Universal	SYS|Plot|Universal
+SYS	Plot	Variant	SYS|Plot|Variant

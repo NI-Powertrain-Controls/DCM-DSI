@@ -1,0 +1,12 @@
+SCM Pairings File 			
+v1.1			
+Target Class	Target Group	Target Name	Host Item
+HW	DI-B	InjCapacitance	InjCapacitance
+HW	DI-B	InjInductance	InjInductance
+HW	DI-B	InjResistance	InjResistance
+HW	DI-B	PumpCapacitance	PumpCapacitance
+HW	DI-B	PumpInductance	PumpInductance
+HW	DI-B	PumpResistance	PumpResistance
+HW	DI-B	SimBatt	SimBatt
+HW	DI-B	SimRotations	SimRotations
+HW	DI-B	SimSpeed	SimSpeed

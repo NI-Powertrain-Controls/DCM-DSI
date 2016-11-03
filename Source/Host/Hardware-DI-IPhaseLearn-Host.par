@@ -1,0 +1,31 @@
+SCM Pairings File 
+v1.1
+Target Class	Target Group	Target Name	Host Item
+HW	DI-IPhaseLearn	ChgFdbk	ChgFdbk
+HW	DI-IPhaseLearn	ChgRSquare	ChgRSquare
+HW	DI-IPhaseLearn	ChgShift	ChgShift
+HW	DI-IPhaseLearn	ChgTarget	ChgTarget
+HW	DI-IPhaseLearn	DIChannel	DIChannel
+HW	DI-IPhaseLearn	DischgFdbk	DischgFdbk
+HW	DI-IPhaseLearn	DischgRSquare	DischgRSquare
+HW	DI-IPhaseLearn	DischgShift	DischgShift
+HW	DI-IPhaseLearn	DischgTarget	DischgTarget
+HW	DI-IPhaseLearn	Enable	Enable
+HW	DI-IPhaseLearn	Filepath	Filepath
+HW	DI-IPhaseLearn	Filter	Filter
+HW	DI-IPhaseLearn	FiltFreq	FiltFreq
+HW	DI-IPhaseLearn	FitThreshold	FitThreshold
+HW	DI-Scope	dt	HW|DI-Scope|dt
+HW	DI-IPhaseLearn	Init	Init
+HW	DI-IPhaseLearn	Kp	Kp
+HW	DI-IPhaseLearn	MaxAdj	MaxAdj
+HW	DI-IPhaseLearn	MinAdj	MinAdj
+HW	DI-IPhaseLearn	OffsetI	OffsetI
+HW	DI-IPhaseLearn	OffsetV	OffsetV
+HW	DI-IPhaseLearn	PiezoQLearn	PiezoQLearn
+HW	DI-IPhaseLearn	ScopeChannelI	ScopeChannelI
+HW	DI-IPhaseLearn	ScopeChannelV	ScopeChannelV
+HW	DI-IPhaseLearn	ScopeI	ScopeI
+HW	DI-IPhaseLearn	ScopeQ	ScopeQ
+HW	DI-IPhaseLearn	ScopeV	ScopeV
+HW	DI-IPhaseLearn	TargetProfile	TargetProfile

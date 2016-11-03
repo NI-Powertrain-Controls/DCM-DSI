@@ -1,0 +1,6 @@
+SCM Pairings File 
+v1.1
+Target Class	Target Group	Target Name	Host Item
+HW	DCM	ADC_FaultThreshHi	ADC_FaultThreshHi
+HW	DCM	ADC_FaultThreshLo	ADC_FaultThreshLo
+HW	DCM	State	State

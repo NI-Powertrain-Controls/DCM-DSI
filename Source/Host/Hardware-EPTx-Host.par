@@ -1,0 +1,37 @@
+SCM Pairings File 
+v1.1
+Target Class	Target Group	Target Name	Host Item
+HW	EPTx	Aux1Filter	Aux1Filter
+HW	EPTx	Aux1Select	Aux1Select
+HW	EPTx	Aux2Filter	Aux2Filter
+HW	EPTx	Aux2Select	Aux2Select
+HW	EPTx	Aux3Filter	Aux3Filter
+HW	EPTx	Aux3Select	Aux3Select
+HW	EPTx	Aux4Filter	Aux4Filter
+HW	EPTx	Aux4Select	Aux4Select
+HW	EPTx	AuxWarning	AuxWarning
+HW	EPTx	ClearErrors	ClearErrors
+HW	EPTx	Config	Config
+HW	EPTx	CurrentCAD	CurrentCAD
+HW	EPTx	EPTxSettingsFilename	EPTxSettingsFilename
+HW	EPTx	HistoryCAD	HistoryCAD
+HW	EPTx	LoadingSettings	LoadingSettings
+HW	EPTx	LoadSettings	LoadSettings
+HW	EPTx	MaxCAD	MaxCAD
+HW	EPTx	Overflow	Overflow
+HW	EPTx	PatternError	PatternError
+HW	EPTx	PrimaryFilter	PrimaryFilter
+HW	EPTx	PrimarySelect	PrimarySelect
+HW	EPTx	RatioError	RatioError
+HW	EPTx	RcvgPrimary	RcvgPrimary
+HW	EPTx	SimEnable	SimEnable
+HW	EPTx	SimSpeed	SimSpeed
+HW	EPTx	Speed	Speed
+HW	EPTx	Stall	Stall
+HW	EPTx	StallSpeed	StallSpeed
+HW	EPTx	Sync	Sync
+HW	EPTx	SyncEnable	SyncEnable
+HW	EPTx	WatchdogError	WatchdogError
+SYS	Exec	IP_Address	SYS|Exec|IP_Address
+SYS	Exec	Username	SYS|Exec|Username
+SYS	Exec	Password	SYS|Exec|Password

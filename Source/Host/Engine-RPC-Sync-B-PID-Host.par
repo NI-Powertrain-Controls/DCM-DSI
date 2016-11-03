@@ -1,0 +1,17 @@
+SCM Pairings File 
+v1.1
+Target Class	Target Group	Target Name	Host Item
+ENG	RPC	Sync-B_Dur_Kp	Sync-B_Dur_Kp
+ENG	RPC	Sync-B_Dur_KpOut	Sync-B_Dur_KpOut
+ENG	RPC	Sync-B_Dur_NonPIDFF	Sync-B_Dur_NonPIDFF
+ENG	RPC	Sync-B_Dur_PIDMax	Sync-B_Dur_PIDMax
+ENG	RPC	Sync-B_Dur_PIDMin	Sync-B_Dur_PIDMin
+ENG	RPC	Sync-B_Dur_Td	Sync-B_Dur_Td
+ENG	RPC	Sync-B_Dur_TdOut	Sync-B_Dur_TdOut
+ENG	RPC	Sync-B_Dur_Ti	Sync-B_Dur_Ti
+ENG	RPC	Sync-B_Dur_TiOut	Sync-B_Dur_TiOut
+ENG	RPC	Sync-B_DurPID_Out	Sync-B_DurPID_Out
+ENG	RPC	Sync-B_FlowCal_Tbl	Sync-B_FlowCal_Tbl
+ENG	RPC	Sync-B_FlowCal_TblOut	Sync-B_FlowCal_TblOut
+ENG	RPC	Sync-B_PerLobeQty	Sync-B_PerLobeQty
+ENG	RPC	Sync-B_FuelQty	Sync-B_FuelQty
