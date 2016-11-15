@@ -5,9 +5,9 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Control" Type="Folder">
-			<Item Name="Control-DIFuel-Run.vi" Type="VI" URL="../SubVIs/Control-DIFuel-Run.vi"/>
-			<Item Name="Control-DIFuel-UserVIRun.vi" Type="VI" URL="../SubVIs/Control-DIFuel-UserVIRun.vi"/>
 			<Item Name="Control-Fuel.vi" Type="VI" URL="../SubVIs/Control-Fuel.vi"/>
+			<Item Name="Control-UserPlugin.vi" Type="VI" URL="../SubVIs/Control-UserPlugin.vi"/>
+			<Item Name="Control-UserScript.vi" Type="VI" URL="../SubVIs/Control-UserScript.vi"/>
 		</Item>
 		<Item Name="Engine" Type="Folder">
 			<Item Name="Engine-AnalogInput.vi" Type="VI" URL="../SubVIs/Engine-AnalogInput.vi"/>
@@ -16,9 +16,8 @@
 			<Item Name="Engine-DI-Calibration.vi" Type="VI" URL="../SubVIs/Engine-DI-Calibration.vi"/>
 			<Item Name="Engine-DI-CalTablesA.vi" Type="VI" URL="../SubVIs/Engine-DI-CalTablesA.vi"/>
 			<Item Name="Engine-DI-CalTablesB.vi" Type="VI" URL="../SubVIs/Engine-DI-CalTablesB.vi"/>
-			<Item Name="Engine-DI-Run.vi" Type="VI" URL="../SubVIs/Engine-DI-Run.vi"/>
+			<Item Name="Engine-DI-InjSplits.vi" Type="VI" URL="../SubVIs/Engine-DI-InjSplits.vi"/>
 			<Item Name="Engine-DI.vi" Type="VI" URL="../SubVIs/Engine-DI.vi"/>
-			<Item Name="Engine-DICal-UserVIRun.vi" Type="VI" URL="../SubVIs/Engine-DICal-UserVIRun.vi"/>
 			<Item Name="Engine-RPC-HPVCtrl.vi" Type="VI" URL="../SubVIs/Engine-RPC-HPVCtrl.vi"/>
 			<Item Name="Engine-RPC-IMVCtrl.vi" Type="VI" URL="../SubVIs/Engine-RPC-IMVCtrl.vi"/>
 			<Item Name="Engine-RPC-Init.vi" Type="VI" URL="../SubVIs/Engine-RPC-Init.vi"/>
@@ -28,7 +27,6 @@
 			<Item Name="Engine-RPC-SyncPumpB.vi" Type="VI" URL="../SubVIs/Engine-RPC-SyncPumpB.vi"/>
 			<Item Name="Engine-RPC-SyncPumpCmd.vi" Type="VI" URL="../SubVIs/Engine-RPC-SyncPumpCmd.vi"/>
 			<Item Name="Engine-RPC-SyncPumpPID.vi" Type="VI" URL="../SubVIs/Engine-RPC-SyncPumpPID.vi"/>
-			<Item Name="Engine-RPC-UserVIRun.vi" Type="VI" URL="../SubVIs/Engine-RPC-UserVIRun.vi"/>
 			<Item Name="Engine-RPC.vi" Type="VI" URL="../SubVIs/Engine-RPC.vi"/>
 			<Item Name="Engine-SystemAI-Ch01.vi" Type="VI" URL="../SubVIs/Engine-SystemAI-Ch01.vi"/>
 			<Item Name="Engine-SystemAI-Ch02.vi" Type="VI" URL="../SubVIs/Engine-SystemAI-Ch02.vi"/>
@@ -45,23 +43,29 @@
 			<Item Name="Engine-Throttle-TB1.vi" Type="VI" URL="../SubVIs/Engine-Throttle-TB1.vi"/>
 			<Item Name="Engine-Throttle-TB2.vi" Type="VI" URL="../SubVIs/Engine-Throttle-TB2.vi"/>
 			<Item Name="Engine-Throttle.vi" Type="VI" URL="../SubVIs/Engine-Throttle.vi"/>
+			<Item Name="Engine-UserPlugin.vi" Type="VI" URL="../SubVIs/Engine-UserPlugin.vi"/>
 		</Item>
 		<Item Name="Hardware" Type="Folder">
 			<Item Name="Hardware-CalPointConstants.vi" Type="VI" URL="../SubVIs/Hardware-CalPointConstants.vi"/>
 			<Item Name="Hardware-DI-iPhaseLearn.vi" Type="VI" URL="../SubVIs/Hardware-DI-iPhaseLearn.vi"/>
 			<Item Name="Hardware-DIA-iPhaseCalPoints.vi" Type="VI" URL="../SubVIs/Hardware-DIA-iPhaseCalPoints.vi"/>
+			<Item Name="Hardware-DIA.vi" Type="VI" URL="../SubVIs/Hardware-DIA.vi"/>
 			<Item Name="Hardware-DIACmdCalPoints.vi" Type="VI" URL="../SubVIs/Hardware-DIACmdCalPoints.vi"/>
 			<Item Name="Hardware-DIB-iPhaseCalPoints.vi" Type="VI" URL="../SubVIs/Hardware-DIB-iPhaseCalPoints.vi"/>
+			<Item Name="Hardware-DIB.vi" Type="VI" URL="../SubVIs/Hardware-DIB.vi"/>
 			<Item Name="Hardware-DIBCmdCalPoints.vi" Type="VI" URL="../SubVIs/Hardware-DIBCmdCalPoints.vi"/>
 			<Item Name="Hardware-DIDriverConfig.vi" Type="VI" URL="../SubVIs/Hardware-DIDriverConfig.vi"/>
+			<Item Name="Hardware-DiffIO.vi" Type="VI" URL="../SubVIs/Hardware-DiffIO.vi"/>
 			<Item Name="Hardware-DiffIOResultsCalPoints.vi" Type="VI" URL="../SubVIs/Hardware-DiffIOResultsCalPoints.vi"/>
 			<Item Name="Hardware-DiffIOSetupCalPoints.vi" Type="VI" URL="../SubVIs/Hardware-DiffIOSetupCalPoints.vi"/>
 			<Item Name="Hardware-DIScope.vi" Type="VI" URL="../SubVIs/Hardware-DIScope.vi"/>
 			<Item Name="Hardware-EPTxControlCalPoints.vi" Type="VI" URL="../SubVIs/Hardware-EPTxControlCalPoints.vi"/>
 			<Item Name="Hardware-EPTxData.vi" Type="VI" URL="../SubVIs/Hardware-EPTxData.vi"/>
 			<Item Name="Hardware-EPTxDataCalPoints.vi" Type="VI" URL="../SubVIs/Hardware-EPTxDataCalPoints.vi"/>
+			<Item Name="Hardware-ESTTL.vi" Type="VI" URL="../SubVIs/Hardware-ESTTL.vi"/>
 			<Item Name="Hardware-ESTTLSetupCalPoints.vi" Type="VI" URL="../SubVIs/Hardware-ESTTLSetupCalPoints.vi"/>
 			<Item Name="Hardware-ExpansionRIO.vi" Type="VI" URL="../SubVIs/Hardware-ExpansionRIO.vi"/>
+			<Item Name="Hardware-HH.vi" Type="VI" URL="../SubVIs/Hardware-HH.vi"/>
 			<Item Name="Hardware-HHCmdCalPoints.vi" Type="VI" URL="../SubVIs/Hardware-HHCmdCalPoints.vi"/>
 			<Item Name="Hardware-HHScope.vi" Type="VI" URL="../SubVIs/Hardware-HHScope.vi"/>
 			<Item Name="Hardware-IRQControlCalPoints.vi" Type="VI" URL="../SubVIs/Hardware-IRQControlCalPoints.vi"/>
@@ -75,13 +79,12 @@
 			<Item Name="Hardware-RegisterControlsCalPoints.vi" Type="VI" URL="../SubVIs/Hardware-RegisterControlsCalPoints.vi"/>
 			<Item Name="Hardware-RegisterFaultPoints.vi" Type="VI" URL="../SubVIs/Hardware-RegisterFaultPoints.vi"/>
 			<Item Name="Hardware-RegisterOutCalPoints.vi" Type="VI" URL="../SubVIs/Hardware-RegisterOutCalPoints.vi"/>
+			<Item Name="Hardware-Skipfire.vi" Type="VI" URL="../SubVIs/Hardware-Skipfire.vi"/>
 			<Item Name="Hardware-SkipFireSetupCalPoints.vi" Type="VI" URL="../SubVIs/Hardware-SkipFireSetupCalPoints.vi"/>
 		</Item>
 		<Item Name="Support" Type="Folder">
-			<Item Name="AddReplaceChannel.vi" Type="VI" URL="../SubVIs/Support/AddReplaceChannel.vi"/>
 			<Item Name="ChangeIndicator_RT.vi" Type="VI" URL="../SubVIs/Support/ChangeIndicator_RT.vi"/>
 			<Item Name="DecodeCANPayload.vi" Type="VI" URL="../SubVIs/Support/DecodeCANPayload.vi"/>
-			<Item Name="FindChannelByName.vi" Type="VI" URL="../SubVIs/Support/FindChannelByName.vi"/>
 			<Item Name="FormatCANPayload.vi" Type="VI" URL="../SubVIs/Support/FormatCANPayload.vi"/>
 			<Item Name="Learn DI Profile RT.vi" Type="VI" URL="../SubVIs/Support/Learn DI Profile RT.vi"/>
 			<Item Name="ListIDs.vi" Type="VI" URL="../SubVIs/Support/ListIDs.vi"/>
@@ -93,7 +96,7 @@
 		</Item>
 		<Item Name="System" Type="Folder">
 			<Item Name="System-AckFaults.vi" Type="VI" URL="../SubVIs/System-AckFaults.vi"/>
-			<Item Name="System-AsyncUserVI.vi" Type="VI" URL="../SubVIs/System-AsyncUserVI.vi"/>
+			<Item Name="System-AsyncUserPlugin.vi" Type="VI" URL="../SubVIs/System-AsyncUserPlugin.vi"/>
 			<Item Name="System-CAN-Interface.vi" Type="VI" URL="../SubVIs/System-CAN-Interface.vi"/>
 			<Item Name="System-EngineRunTime.vi" Type="VI" URL="../SubVIs/System-EngineRunTime.vi"/>
 			<Item Name="System-ExecInfo.vi" Type="VI" URL="../SubVIs/System-ExecInfo.vi"/>

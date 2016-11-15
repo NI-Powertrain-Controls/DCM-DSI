@@ -3,9 +3,6 @@ v1.1
 Target Class	Target Group	Target Name	Host Item
 SYS	Exec	App_Run_Time	App_Run_Time
 SYS	Exec	CalLoading	CalLoading
-SYS	Faults	CmdErrorCode	CmdErrorCode
-SYS	Faults	CmdErrorSource	CmdErrorSource
-SYS	Faults	CmdErrorState	CmdErrorState
 SYS	Exec	CmdLoopDuration	CmdLoopDuration
 SYS	Exec	CmdLoopPeriod	CmdLoopPeriod
 SYS	Exec	CmdLoopPeriod_Set	CmdLoopPeriod_Set
@@ -17,19 +14,19 @@ SYS	Exec	Engine_Out_Duration	Engine_Out_Duration
 SYS	Runtime	Engine_Time	Engine_Time
 SYS	Runtime	Engine_Time_Reset	Engine_Time_Reset
 SYS	Faults	FPGA_1_Error	FPGA_1_Error
+SYS	Faults	CmdLoopError	CmdLoopError
+SYS	Faults	SysLoopError	SysLoopError
 SYS	Exec	Hardware_Duration	Hardware_Duration
 SYS	Exec	IP_Address	IP_Address
-SYS	Exec	Largest_Contiguous_Mem	Largest_Contiguous_Mem
 SYS	Exec	Memory_Used	Memory_Used
+SYS	Exec	Reboot	Reboot
 SYS	Exec	SCMInitError	SCMInitError
 SYS	Exec	Storage_Space	Storage_Space
 SYS	Exec	Storage_Space_Used	Storage_Space_Used
-SYS	Faults	SysErrorCode	SysErrorCode
-SYS	Faults	SysErrorSource	SysErrorSource
-SYS	Faults	SysErrorState	SysErrorState
 SYS	Exec	SystemLoopDuration	SystemLoopDuration
 SYS	Exec	SystemLoopPeriod	SystemLoopPeriod
 SYS	Exec	SystemLoopPeriod_Set	SystemLoopPeriod_Set
 SYS	Exec	TargetName	TargetName
 SYS	Runtime	Time_Since_Start	Time_Since_Start
 SYS	Exec	Total_Mem	Total_Mem
+HW	DCM	State	State

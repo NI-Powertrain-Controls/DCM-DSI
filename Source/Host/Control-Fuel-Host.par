@@ -2,22 +2,21 @@ SCM Pairings File
 v1.1
 Target Class	Target Group	Target Name	Host Item
 ENG	Channels	Names	Channels|Names
-CTRL	Fuel	UserParamNames	CTRL|Fuel|UserParamNames
-CTRL	Fuel	UserParamValues	CTRL|Fuel|UserParamValues
-CTRL	Fuel	UserResults	CTRL|Fuel|UserResults
+CTRL	Fuel	Enable	Enable
+CTRL	Fuel	Engine_Vd	Engine_Vd
+CTRL	Fuel	Fuel_SG	Fuel_SG
+CTRL	Fuel	Lambda_Target	Lambda_Target
+CTRL	Fuel	MAPInput	MAPInput
+CTRL	Fuel	MAPName	MAPName
+CTRL	Fuel	PedalInput	PedalInput
+CTRL	Fuel	PedalName	PedalName
 CTRL	Fuel	Mode	Mode
-CTRL	Fuel	PluginError	PluginError
-CTRL	Fuel	RelLoad_Man	RelLoad_Man
-CTRL	Fuel	RelLoad_ManE	RelLoad_ManE
-CTRL	Fuel	RelLoad_Tbl	RelLoad_Tbl
-CTRL	Fuel	RelLoad_TblOut	RelLoad_TblOut
-CTRL	Fuel	RelLoad	RelLoad
-CTRL	Fuel	Pedal	Pedal
-CTRL	Fuel	PedalIndex	PedalIndex
+CTRL	Fuel	AFR_Stoich	AFR_Stoich
+CTRL	Fuel	TempInput	TempInput
+CTRL	Fuel	TempName	TempName
 CTRL	Fuel	TotalFuelQty_Man	TotalFuelQty_Man
 CTRL	Fuel	TotalFuelQty_ManE	TotalFuelQty_ManE
 CTRL	Fuel	TotalFuelQty_Tbl	TotalFuelQty_Tbl
-CTRL	Fuel	TotalFuelQty_TblOut	TotalFuelQty_TblOut
 CTRL	Fuel	TotalFuelQty	TotalFuelQty
-CTRL	Fuel	UserVI_Filename	UserVI_Filename
-CTRL	Fuel	UserVI_Reload	UserVI_Reload
+CTRL	Fuel	VE_Tbl	VE_Tbl
+CTRL	Fuel	VE_TblOut	VE_TblOut

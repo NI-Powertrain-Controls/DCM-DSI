@@ -4,11 +4,7 @@ Target Class	Target Group	Target Name	Host Item
 ENG	Channels	Names	Channels|Names
 ENG	RPC	ClearFaults	ENG|RPC|ClearFaults
 ENG	RPC	Fault	ENG|RPC|Fault
-ENG	RPC	UserParamNames	ENG|RPC|UserParamNames
-ENG	RPC	UserParamValues	ENG|RPC|UserParamValues
-ENG	RPC	UserResults	ENG|RPC|UserResults
 ENG	RPC	Mode	Mode
-ENG	RPC	PluginError	PluginError
 ENG	RPC	PWM-A_Controls	PWM-A_Controls
 ENG	RPC	PWM-A_DisHHChans	PWM-A_DisHHChans
 ENG	RPC	PWM-A_Fault	PWM-A_Fault
@@ -65,5 +61,3 @@ ENG	RPC	Sync-B_RailPIndex	Sync-B_RailPIndex
 ENG	RPC	Sync-B_Timing_EPT	Sync-B_Timing_EPT
 ENG	RPC	Sync-B_Timing_TMP	Sync-B_Timing_TMP
 ENG	RPC	Sync-B_TimingMode	Sync-B_TimingMode
-ENG	RPC	UserVI_Filename	UserVI_Filename
-ENG	RPC	UserVI_Reload	UserVI_Reload

@@ -97,8 +97,8 @@ AddOutputFilter chunkFilter
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
-		<Item Name="Inline Plugins" Type="Folder">
-			<Item Name="DCM-DSI-UserFuelExample.lvclass" Type="LVClass" URL="../Classes/DCM-DSI-UserFuelExample/DCM-DSI-UserFuelExample.lvclass"/>
+		<Item Name="Plugins" Type="Folder">
+			<Item Name="DCM-DSI-UserFuelTrimExample.lvclass" Type="LVClass" URL="../Classes/DCM-DSI-UserFuelTrimExample/DCM-DSI-UserFuelTrimExample.lvclass"/>
 			<Item Name="DCM-DSI-UserRPCExample.lvclass" Type="LVClass" URL="../Classes/DCM-DSI-UserRPCExample/DCM-DSI-UserRPCExample.lvclass"/>
 			<Item Name="DCM-DSI-UserAsyncExample.lvclass" Type="LVClass" URL="../Classes/DCM-DSI-UserAsyncExample/DCM-DSI-UserAsyncExample.lvclass"/>
 		</Item>
@@ -164,6 +164,7 @@ AddOutputFilter chunkFilter
 				<Item Name="SCM-API.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/Software Calibration Management/xSCM/SCM-API.lvlib"/>
 				<Item Name="Interp1DTableRT.vi" Type="VI" URL="/&lt;vilib&gt;/Powertrain Controls/Device Drivers/Tools/Real-Time/Interp1DTableRT.vi"/>
 				<Item Name="ni_scm.dll" Type="Document" URL="/&lt;vilib&gt;/addons/Software Calibration Management/xSCM/ni_scm.dll"/>
+				<Item Name="DCM - RT - IRQ.lvlib" Type="Library" URL="/&lt;vilib&gt;/Powertrain Controls/Device Drivers/DCM/IRQ/RT/DCM - RT - IRQ.lvlib"/>
 			</Item>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -173,15 +174,16 @@ AddOutputFilter chunkFilter
 			</Item>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="NI-PCG Vehicle Model.lvlib" Type="Library" URL="../Classes/DCM-DSI-UserAsyncExample/Vehicle Model Example/NI-PCG Vehicle Model.lvlib"/>
+			<Item Name="DSI-Shared.lvlib" Type="Library" URL="../Shared/DSI-Shared.lvlib"/>
 			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="User Fuel Example" Type="Source Distribution">
+			<Item Name="User Fuel Trim Example" Type="Source Distribution">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{DFABAD73-258B-4FDB-915F-577521783E13}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">User Fuel Example</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">User Fuel Trim Example</Property>
 				<Property Name="Bld_compilerOptLevel" Type="Int">0</Property>
 				<Property Name="Bld_excludedDirectory[0]" Type="Path">instr.lib</Property>
 				<Property Name="Bld_excludedDirectory[0].pathType" Type="Str">relativeToAppDir</Property>
@@ -192,29 +194,29 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeTypedefs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Builds/User Fuel Example</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Builds/DCM-DSI/User Fuel Trim Example</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{FC3FA8A3-2FC3-4FA3-8B43-D935945E79DC}</Property>
-				<Property Name="Bld_targetDestDir" Type="Path">/UserFuelExample.llb</Property>
-				<Property Name="Bld_version.build" Type="Int">64</Property>
+				<Property Name="Bld_targetDestDir" Type="Path">/UserFuelTrimExample.llb</Property>
+				<Property Name="Bld_version.build" Type="Int">66</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">/UserFuelExample.llb</Property>
+				<Property Name="Destination[0].path" Type="Path">/UserFuelTrimExample.llb</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].type" Type="Str">LLB</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">/Support</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{113CF5FF-5551-4903-BA9B-FA6A645B2571}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{61329E2A-C689-47AD-B924-F175C5C95485}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/DCM/Inline Plugins/DCM-DSI-UserFuelExample.lvclass</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/DCM/Exclude in Compile/DCM-DSI.lvclass</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/DCM/Exclude in Compile/DCM-DSI.lvclass</Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">Exclude</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/DCM/Plugins/DCM-DSI-UserFuelTrimExample.lvclass</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
 			</Item>
@@ -232,11 +234,11 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeTypedefs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Builds/User RPC Example</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Builds/DCM-DSI/User RPC Example</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{70D8035D-FA06-4D52-A49C-A17CAC1D7789}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/UserRPCExample.llb</Property>
-				<Property Name="Bld_version.build" Type="Int">60</Property>
+				<Property Name="Bld_version.build" Type="Int">62</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/UserRPCExample.llb</Property>
@@ -246,20 +248,17 @@ AddOutputFilter chunkFilter
 				<Property Name="Destination[1].path" Type="Path">/Support</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{113CF5FF-5551-4903-BA9B-FA6A645B2571}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{DC5B8316-DC2C-4FEE-88B3-5A1B4BD8EB69}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/DCM/Inline Plugins/DCM-DSI-UserFuelExample.lvclass</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/DCM/Exclude in Compile/DCM-DSI.lvclass</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/DCM/Exclude in Compile/DCM-DSI.lvclass</Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">Exclude</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/DCM/Plugins/DCM-DSI-UserRPCExample.lvclass</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">Library</Property>
-				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/DCM/Inline Plugins/DCM-DSI-UserRPCExample.lvclass</Property>
-				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[3].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">4</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
 			</Item>
 			<Item Name="User Async Example" Type="Source Distribution">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
@@ -275,11 +274,11 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeTypedefs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Builds/User Async Example</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Builds/DCM-DSI/User Async Example</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{BB779D0C-B467-4F45-9F4A-D0B46BF6FABE}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/UserAsyncExample.llb</Property>
-				<Property Name="Bld_version.build" Type="Int">61</Property>
+				<Property Name="Bld_version.build" Type="Int">65</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/UserAsyncExample.llb</Property>
@@ -289,23 +288,20 @@ AddOutputFilter chunkFilter
 				<Property Name="Destination[1].path" Type="Path">/Support</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E02091A9-98A3-4D51-8294-2F8C91455DAC}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{DC5B8316-DC2C-4FEE-88B3-5A1B4BD8EB69}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/DCM/Inline Plugins/DCM-DSI-UserFuelExample.lvclass</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/DCM/Exclude in Compile/DCM-DSI.lvclass</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/DCM/Exclude in Compile/DCM-DSI.lvclass</Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">Exclude</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/DCM/Plugins/DCM-DSI-UserRPCExample.lvclass</Property>
 				<Property Name="Source[2].type" Type="Str">Library</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/DCM/Inline Plugins/DCM-DSI-UserRPCExample.lvclass</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/DCM/Plugins/DCM-DSI-UserAsyncExample.lvclass</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">Library</Property>
-				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/DCM/Inline Plugins/DCM-DSI-UserAsyncExample.lvclass</Property>
-				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[4].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">5</Property>
+				<Property Name="SourceCount" Type="Int">4</Property>
 			</Item>
 		</Item>
 	</Item>

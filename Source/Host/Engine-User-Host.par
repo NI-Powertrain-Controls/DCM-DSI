@@ -1,0 +1,10 @@
+SCM Pairings File 
+v1.1
+Target Class	Target Group	Target Name	Host Item
+ENG	User	Enable	Enable
+ENG	User	Error	Error
+ENG	User	Filename	Filename
+ENG	User	Reload	Reload
+ENG	User	ParamNames	ENG|User|ParamNames
+ENG	User	ParamValues	ENG|User|ParamValues
+ENG	User	Results	ENG|User|Results
