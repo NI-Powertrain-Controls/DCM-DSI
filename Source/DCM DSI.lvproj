@@ -278,7 +278,7 @@
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy Host to SCM Data.vi</Property>
 				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/Utility/Update version.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{56831944-EC47-455C-9451-4DE99FABFD3E}</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">2016</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Bld_version.patch" Type="Int">8</Property>
@@ -293,7 +293,7 @@
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].destinationIndex" Type="Int">1</Property>
-				<Property Name="Source[0].itemID" Type="Str">{CDF2EC1E-AD7D-4E94-8650-68E9C2F591F1}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{273B937D-096B-4BFF-AFCE-AF26F269EF30}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
@@ -364,7 +364,7 @@
 	</Item>
 	<Item Name="DCM" Type="RT Single-Board RIO">
 		<Property Name="alias.name" Type="Str">DCM</Property>
-		<Property Name="alias.value" Type="Str">10.15.1.49</Property>
+		<Property Name="alias.value" Type="Str">192.168.1.100</Property>
 		<Property Name="CCSymbols" Type="Str">OS,Linux;CPU,ARM;DeviceCode,775E;TARGET_TYPE,RT;</Property>
 		<Property Name="crio.ControllerPID" Type="Str">775E</Property>
 		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
@@ -624,7 +624,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8AA94BEE-FDA3-4658-845D-6D2D79102180}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">408</Property>
+				<Property Name="Bld_version.build" Type="Int">420</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>

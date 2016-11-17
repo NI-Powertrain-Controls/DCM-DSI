@@ -16,7 +16,7 @@ ENG	RPC	PWM-A_IMVPID_E	PWM-A_IMVPID_E
 ENG	RPC	PWM-A_Indicators	PWM-A_Indicators
 ENG	RPC	PWM-A_MaxRailP	PWM-A_MaxRailP
 ENG	RPC	PWM-A_RailPStp	PWM-A_RailPStp
-ENG	RPC	PWM-A_RailP	PWM-A_RailP
+ENG	RPC	PWM-A_RailPSensor	PWM-A_RailPSensor
 ENG	RPC	PWM-A_RailPIndex	PWM-A_RailPIndex
 ENG	RPC	PWM-B_Controls	PWM-B_Controls
 ENG	RPC	PWM-B_DisHHChans	PWM-B_DisHHChans
@@ -29,7 +29,7 @@ ENG	RPC	PWM-B_IMVPID_E	PWM-B_IMVPID_E
 ENG	RPC	PWM-B_Indicators	PWM-B_Indicators
 ENG	RPC	PWM-B_MaxRailP	PWM-B_MaxRailP
 ENG	RPC	PWM-B_RailPStp	PWM-B_RailPStp
-ENG	RPC	PWM-B_RailP	PWM-B_RailP
+ENG	RPC	PWM-B_RailPSensor	PWM-B_RailPSensor
 ENG	RPC	PWM-B_RailPIndex	PWM-B_RailPIndex
 ENG	RPC	Sync-A_CamDefaultPsn	Sync-A_CamDefaultPsn
 ENG	RPC	Sync-A_CamLobes	Sync-A_CamLobes
@@ -41,7 +41,7 @@ ENG	RPC	Sync-A_Fault	Sync-A_Fault
 ENG	RPC	Sync-A_Indicators	Sync-A_Indicators
 ENG	RPC	Sync-A_MaxRailP	Sync-A_MaxRailP
 ENG	RPC	Sync-A_RailPStp	Sync-A_RailPStp
-ENG	RPC	Sync-A_RailP	Sync-A_RailP
+ENG	RPC	Sync-A_RailPSensor	Sync-A_RailPSensor
 ENG	RPC	Sync-A_RailPIndex	Sync-A_RailPIndex
 ENG	RPC	Sync-A_Timing_EPT	Sync-A_Timing_EPT
 ENG	RPC	Sync-A_Timing_TMP	Sync-A_Timing_TMP
@@ -56,7 +56,7 @@ ENG	RPC	Sync-B_Fault	Sync-B_Fault
 ENG	RPC	Sync-B_Indicators	Sync-B_Indicators
 ENG	RPC	Sync-B_MaxRailP	Sync-B_MaxRailP
 ENG	RPC	Sync-B_RailPStp	Sync-B_RailPStp
-ENG	RPC	Sync-B_RailP	Sync-B_RailP
+ENG	RPC	Sync-B_RailPSensor	Sync-B_RailPSensor
 ENG	RPC	Sync-B_RailPIndex	Sync-B_RailPIndex
 ENG	RPC	Sync-B_Timing_EPT	Sync-B_Timing_EPT
 ENG	RPC	Sync-B_Timing_TMP	Sync-B_Timing_TMP
