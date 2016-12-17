@@ -28,18 +28,7 @@
 			<Item Name="Engine-RPC-SyncPumpCmd.vi" Type="VI" URL="../SubVIs/Engine-RPC-SyncPumpCmd.vi"/>
 			<Item Name="Engine-RPC-SyncPumpPID.vi" Type="VI" URL="../SubVIs/Engine-RPC-SyncPumpPID.vi"/>
 			<Item Name="Engine-RPC.vi" Type="VI" URL="../SubVIs/Engine-RPC.vi"/>
-			<Item Name="Engine-SystemAI-Ch01.vi" Type="VI" URL="../SubVIs/Engine-SystemAI-Ch01.vi"/>
-			<Item Name="Engine-SystemAI-Ch02.vi" Type="VI" URL="../SubVIs/Engine-SystemAI-Ch02.vi"/>
-			<Item Name="Engine-SystemAI-Ch03.vi" Type="VI" URL="../SubVIs/Engine-SystemAI-Ch03.vi"/>
-			<Item Name="Engine-SystemAI-Ch04.vi" Type="VI" URL="../SubVIs/Engine-SystemAI-Ch04.vi"/>
-			<Item Name="Engine-SystemAI-Ch05.vi" Type="VI" URL="../SubVIs/Engine-SystemAI-Ch05.vi"/>
-			<Item Name="Engine-SystemAI-Ch06.vi" Type="VI" URL="../SubVIs/Engine-SystemAI-Ch06.vi"/>
-			<Item Name="Engine-SystemAI-Ch07.vi" Type="VI" URL="../SubVIs/Engine-SystemAI-Ch07.vi"/>
-			<Item Name="Engine-SystemAI-Ch08.vi" Type="VI" URL="../SubVIs/Engine-SystemAI-Ch08.vi"/>
-			<Item Name="Engine-SystemAI-Ch09.vi" Type="VI" URL="../SubVIs/Engine-SystemAI-Ch09.vi"/>
-			<Item Name="Engine-SystemAI-Ch10.vi" Type="VI" URL="../SubVIs/Engine-SystemAI-Ch10.vi"/>
-			<Item Name="Engine-SystemAI-Ch11.vi" Type="VI" URL="../SubVIs/Engine-SystemAI-Ch11.vi"/>
-			<Item Name="Engine-SystemAI-Ch12.vi" Type="VI" URL="../SubVIs/Engine-SystemAI-Ch12.vi"/>
+			<Item Name="Engine-SystemAI-Channel.vi" Type="VI" URL="../SubVIs/Engine-SystemAI-Channel.vi"/>
 			<Item Name="Engine-Throttle-TB1.vi" Type="VI" URL="../SubVIs/Engine-Throttle-TB1.vi"/>
 			<Item Name="Engine-Throttle-TB2.vi" Type="VI" URL="../SubVIs/Engine-Throttle-TB2.vi"/>
 			<Item Name="Engine-Throttle.vi" Type="VI" URL="../SubVIs/Engine-Throttle.vi"/>
@@ -110,4 +99,5 @@
 	<Item Name="Engine-Out.vi" Type="VI" URL="../Engine-Out.vi"/>
 	<Item Name="Hardware-DCM-23XX-Cmd.vi" Type="VI" URL="../Hardware-DCM-23XX-Cmd.vi"/>
 	<Item Name="Hardware-DCM-23XX-System.vi" Type="VI" URL="../Hardware-DCM-23XX-System.vi"/>
+	<Item Name="System-LoadCalibration.vi" Type="VI" URL="../SubVIs/System-LoadCalibration.vi"/>
 </Library>

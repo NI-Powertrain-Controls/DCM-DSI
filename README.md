@@ -8,7 +8,7 @@ LabVIEW 2016
 
 ### Built Availability ###
 
-Builds of this IP are available on the [NI Powertrain Controls Community](https://decibel.ni.com/content/groups/drivven-users)
+Builds of this IP are not yet available.
 
 ### Quality, Limitations ###
 
@@ -18,7 +18,7 @@ This IP should be considered alpha release quality.
 
 <Required> [NI Powertrain Controls Device Drivers](http://www.ni.com/gate/gb/GB_EVALTLKTPOWERTRAINDD/US)
 
-<Required> [NI Software Calibration Management Toolkit for LabVIEW 2016] (http://sine.ni.com/nips/cds/view/p/lang/en/nid/212381)
+<Required> [NI Software Calibration Management Toolkit for LabVIEW 2016] (http://www.ni.com/gate/gb/GB_EVALTLKTCALCAB/US)
 
 ### License ###
 

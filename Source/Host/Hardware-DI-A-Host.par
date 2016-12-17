@@ -25,7 +25,7 @@ HW	DI-A	InjPhasePlotColors	InjPhasePlotColors
 HW	DI-A	InjPhasePlotLineTypes	InjPhasePlotLineTypes
 HW	DI-A	InjPhasePlotLineWidths	InjPhasePlotLineWidths
 HW	DI-A	InjResistance	InjResistance
-HW	DI-A	Phase Array	Phase Array
+HW	DI-A	PhaseArray	PhaseArray
 HW	DI-A	PhaseArraysList	PhaseArraysList
 HW	DI-A	Profiles	Profiles
 HW	DI-A	ProfilesAdapt	ProfilesAdapt
@@ -38,7 +38,7 @@ HW	DI-A	PumpCmdPlotLineTypes	PumpCmdPlotLineTypes
 HW	DI-A	PumpCmdPlotLineWidths	PumpCmdPlotLineWidths
 HW	DI-A	PumpInductance	PumpInductance
 HW	DI-A	PumpPhase	PumpPhase
-HW	DI-A	PumpPhase Array	PumpPhase Array
+HW	DI-A	PumpPhaseArray	PumpPhaseArray
 HW	DI-A	PumpPhasePlotColors	PumpPhasePlotColors
 HW	DI-A	PumpPhasePlotLineTypes	PumpPhasePlotLineTypes
 HW	DI-A	PumpPhasePlotLineWidths	PumpPhasePlotLineWidths

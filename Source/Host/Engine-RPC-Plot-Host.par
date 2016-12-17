@@ -1,6 +1,7 @@
 SCM Pairings File 
 v1.1
 Target Class	Target Group	Target Name	Host Item
+ENG	RPC	Mode	ENG|RPC|Mode
 ENG	RPC	PWM-A_RailPSensor	PWM-A_RailPSensor
 ENG	RPC	PWM-A_RailPStp	PWM-A_RailPStp
 ENG	RPC	PWM-B_RailPSensor	PWM-B_RailPSensor
