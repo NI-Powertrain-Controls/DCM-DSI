@@ -10,3 +10,5 @@ HW	DI-Scope	dt	dt
 HW	DI-Scope	Length	Length
 HW	DI-Scope	ScopeEnable	ScopeEnable
 HW	DI-Scope	ScopeEvent	ScopeEvent
+HW	DI-Scope	Snapshot	Snapshot
+HW	DI-Scope	SnapshotFile	SnapshotFile

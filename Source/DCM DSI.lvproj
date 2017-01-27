@@ -141,7 +141,6 @@
 				<Item Name="DCM - RT - Tools.lvlib" Type="Library" URL="/&lt;vilib&gt;/Powertrain Controls/Device Drivers/DCM/Tools/RT/DCM - RT - Tools.lvlib"/>
 				<Item Name="DCM - RT - I2C.lvlib" Type="Library" URL="/&lt;vilib&gt;/Powertrain Controls/Device Drivers/DCM/I2C/RT/DCM - RT - I2C.lvlib"/>
 				<Item Name="DCM - FPGA - I2C.lvlib" Type="Library" URL="/&lt;vilib&gt;/Powertrain Controls/Device Drivers/DCM/I2C/FPGA/DCM - FPGA - I2C.lvlib"/>
-				<Item Name="DCM - RT - RevC.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Powertrain Controls/Device Drivers/DCM/RevC/RT/DCM - RT - RevC.lvclass"/>
 				<Item Name="PB - RT.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Powertrain Controls/Device Drivers/DCM/PB-00/RT/PB - RT.lvclass"/>
 				<Item Name="DCM - RT - Skip Fire.lvlib" Type="Library" URL="/&lt;vilib&gt;/Powertrain Controls/Device Drivers/DCM/Skip Fire/RT/DCM - RT - Skip Fire.lvlib"/>
 				<Item Name="SubHost.xctl" Type="XControl" URL="/&lt;vilib&gt;/addons/Software Calibration Management/XControls/SubHost.xctl"/>
@@ -218,9 +217,10 @@
 				<Item Name="CalPoint ID - V4.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/Software Calibration Management/xSCM/Servers/Console-V4/CalPoint ID - V4.ctl"/>
 				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
 				<Item Name="DCM - FPGA - Calibration.lvbitx" Type="Document" URL="/&lt;vilib&gt;/Powertrain Controls/Device Drivers/DCM/Top Level/FPGA Bitfiles/DCM - FPGA - Calibration.lvbitx"/>
-				<Item Name="DCM - FPGA - 2316 - RevC.lvbitx" Type="Document" URL="/&lt;vilib&gt;/Powertrain Controls/Device Drivers/DCM/Top Level/FPGA Bitfiles/DCM - FPGA - 2316 - RevC.lvbitx"/>
 				<Item Name="DCM - FPGA - 2316 - RevD.lvbitx" Type="Document" URL="/&lt;vilib&gt;/Powertrain Controls/Device Drivers/DCM/Top Level/FPGA Bitfiles/DCM - FPGA - 2316 - RevD.lvbitx"/>
 				<Item Name="Open a Document on Disk.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open a Document on Disk.vi"/>
+				<Item Name="DCM - FPGA - 2316 - RevE.lvbitx" Type="Document" URL="/&lt;vilib&gt;/Powertrain Controls/Device Drivers/DCM/Top Level/FPGA Bitfiles/DCM - FPGA - 2316 - RevE.lvbitx"/>
+				<Item Name="DCM - RT - RevE.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Powertrain Controls/Device Drivers/DCM/RevE/RT/DCM - RT - RevE.lvclass"/>
 			</Item>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -255,6 +255,9 @@
 			<Item Name="mxLvGetItem.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvGetItem.vi"/>
 			<Item Name="mxLvProvider.mxx" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/mxLvProvider.mxx"/>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
+			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="DSI Host" Type="Source Distribution">
@@ -275,10 +278,9 @@
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy Host to SCM Data.vi</Property>
 				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/Utility/Update version.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{56831944-EC47-455C-9451-4DE99FABFD3E}</Property>
-				<Property Name="Bld_version.build" Type="Int">5</Property>
 				<Property Name="Bld_version.major" Type="Int">2016</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
-				<Property Name="Bld_version.patch" Type="Int">8</Property>
+				<Property Name="Bld_version.patch" Type="Int">11</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../Builds/DCM-DSI/DSI Host</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -290,7 +292,7 @@
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].destinationIndex" Type="Int">1</Property>
-				<Property Name="Source[0].itemID" Type="Str">{253A41AD-20CB-480C-BBD5-EDF4F2A46C07}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{AE6372D9-E958-4848-85D8-F2EAA7BB79D4}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
@@ -330,7 +332,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{087FA010-3505-4BE4-A5B3-89461539348B}</Property>
-				<Property Name="Bld_version.build" Type="Int">267</Property>
+				<Property Name="Bld_version.build" Type="Int">270</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../Builds/DCM-DSI/DCM Tools</Property>
@@ -361,7 +363,7 @@
 	</Item>
 	<Item Name="DCM" Type="RT Single-Board RIO">
 		<Property Name="alias.name" Type="Str">DCM</Property>
-		<Property Name="alias.value" Type="Str">192.168.1.100</Property>
+		<Property Name="alias.value" Type="Str">0.0.0.0</Property>
 		<Property Name="CCSymbols" Type="Str">OS,Linux;CPU,ARM;DeviceCode,775E;TARGET_TYPE,RT;</Property>
 		<Property Name="crio.ControllerPID" Type="Str">775E</Property>
 		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
@@ -443,8 +445,10 @@ AddOutputFilter chunkFilter
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
-		<Item Name="Classes" Type="Folder" URL="../Classes">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
+		<Item Name="Classes" Type="Folder">
+			<Item Name="DCM-DSI" Type="Folder" URL="../Classes/DCM-DSI">
+				<Property Name="NI.DISK" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Chassis" Type="sbRIO Chassis">
 			<Property Name="crio.ProgrammingMode" Type="Str">fpga</Property>
@@ -477,8 +481,8 @@ AddOutputFilter chunkFilter
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Confirm IO Lock.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Software Calibration Management/CalPoint/Confirm IO Lock.vi"/>
-				<Item Name="DCM - FPGA - 2316 - RevC.lvbitx" Type="Document" URL="/&lt;vilib&gt;/Powertrain Controls/Device Drivers/DCM/Top Level/FPGA Bitfiles/DCM - FPGA - 2316 - RevC.lvbitx"/>
 				<Item Name="DCM - FPGA - 2316 - RevD.lvbitx" Type="Document" URL="/&lt;vilib&gt;/Powertrain Controls/Device Drivers/DCM/Top Level/FPGA Bitfiles/DCM - FPGA - 2316 - RevD.lvbitx"/>
+				<Item Name="DCM - FPGA - 2316 - RevE.lvbitx" Type="Document" URL="/&lt;vilib&gt;/Powertrain Controls/Device Drivers/DCM/Top Level/FPGA Bitfiles/DCM - FPGA - 2316 - RevE.lvbitx"/>
 				<Item Name="DCM - FPGA - Calibration.lvbitx" Type="Document" URL="/&lt;vilib&gt;/Powertrain Controls/Device Drivers/DCM/Top Level/FPGA Bitfiles/DCM - FPGA - Calibration.lvbitx"/>
 				<Item Name="DCM - FPGA - DI.lvlib" Type="Library" URL="/&lt;vilib&gt;/Powertrain Controls/Device Drivers/DCM/DI/FPGA/DCM - FPGA - DI.lvlib"/>
 				<Item Name="DCM - FPGA - Diff IO.lvlib" Type="Library" URL="/&lt;vilib&gt;/Powertrain Controls/Device Drivers/DCM/Diff IO/FPGA/DCM - FPGA - Diff IO.lvlib"/>
@@ -493,8 +497,8 @@ AddOutputFilter chunkFilter
 				<Item Name="DCM - RT - HH.lvlib" Type="Library" URL="/&lt;vilib&gt;/Powertrain Controls/Device Drivers/DCM/HH/RT/DCM - RT - HH.lvlib"/>
 				<Item Name="DCM - RT - I2C.lvlib" Type="Library" URL="/&lt;vilib&gt;/Powertrain Controls/Device Drivers/DCM/I2C/RT/DCM - RT - I2C.lvlib"/>
 				<Item Name="DCM - RT - IRQ.lvlib" Type="Library" URL="/&lt;vilib&gt;/Powertrain Controls/Device Drivers/DCM/IRQ/RT/DCM - RT - IRQ.lvlib"/>
-				<Item Name="DCM - RT - RevC.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Powertrain Controls/Device Drivers/DCM/RevC/RT/DCM - RT - RevC.lvclass"/>
 				<Item Name="DCM - RT - RevD.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Powertrain Controls/Device Drivers/DCM/RevD/RT/DCM - RT - RevD.lvclass"/>
+				<Item Name="DCM - RT - RevE.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Powertrain Controls/Device Drivers/DCM/RevE/RT/DCM - RT - RevE.lvclass"/>
 				<Item Name="DCM - RT - Skip Fire.lvlib" Type="Library" URL="/&lt;vilib&gt;/Powertrain Controls/Device Drivers/DCM/Skip Fire/RT/DCM - RT - Skip Fire.lvlib"/>
 				<Item Name="DCM - RT - Tools.lvlib" Type="Library" URL="/&lt;vilib&gt;/Powertrain Controls/Device Drivers/DCM/Tools/RT/DCM - RT - Tools.lvlib"/>
 				<Item Name="DCM - RT.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Powertrain Controls/Device Drivers/DCM/Rev0/RT/DCM - RT.lvclass"/>
@@ -509,7 +513,6 @@ AddOutputFilter chunkFilter
 				<Item Name="GetNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/GetNamedSemaphorePrefix.vi"/>
 				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
 				<Item Name="Interp1DTableRT.vi" Type="VI" URL="/&lt;vilib&gt;/Powertrain Controls/Device Drivers/Tools/Real-Time/Interp1DTableRT.vi"/>
-				<Item Name="Interp2DTableRT.vi" Type="VI" URL="/&lt;vilib&gt;/Powertrain Controls/Device Drivers/Tools/Real-Time/Interp2DTableRT.vi"/>
 				<Item Name="Knock - RevA - FPGA.lvlib" Type="Library" URL="/&lt;vilib&gt;/Powertrain Controls/Device Drivers/FPGA Knock/RevA/FPGA/Knock - RevA - FPGA.lvlib"/>
 				<Item Name="Knock - RevA - RT.lvlib" Type="Library" URL="/&lt;vilib&gt;/Powertrain Controls/Device Drivers/FPGA Knock/RevA/RT/Knock - RevA - RT.lvlib"/>
 				<Item Name="Load CalFile.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Software Calibration Management/CalPoint/Load CalFile.vi"/>
@@ -622,7 +625,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8AA94BEE-FDA3-4658-845D-6D2D79102180}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">425</Property>
+				<Property Name="Bld_version.build" Type="Int">442</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>

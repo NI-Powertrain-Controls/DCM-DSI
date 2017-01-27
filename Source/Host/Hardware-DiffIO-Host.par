@@ -2,9 +2,12 @@ SCM Pairings File
 v1.1
 Target Class	Target Group	Target Name	Host Item
 HW	DiffIO	AdaptMode	AdaptMode
+HW	DiffIO	AuxModes	AuxModes
 HW	DiffIO	ChannelNames	ChannelNames
 HW	DiffIO	Filters	Filters
 HW	DiffIO	PWMSettings	PWMSettings
 HW	DiffIO	Results	Results
+HW	DiffIO	SerialIn1	SerialIn1
+HW	DiffIO	SerialIn2	SerialIn2
 HW	DiffIO	Setup	Setup
 HW	DiffIO	State	State

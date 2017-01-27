@@ -8,8 +8,8 @@ CTRL	Fuel	Fuel_SG	Fuel_SG
 CTRL	Fuel	Lambda_Target	Lambda_Target
 CTRL	Fuel	MAPInput	MAPInput
 CTRL	Fuel	MAPName	MAPName
-CTRL	Fuel	PedalInput	PedalInput
-CTRL	Fuel	PedalName	PedalName
+CTRL	Fuel	LoadInput	LoadInput
+CTRL	Fuel	LoadInputName	LoadInputName
 CTRL	Fuel	Mode	Mode
 CTRL	Fuel	AFR_Stoich	AFR_Stoich
 CTRL	Fuel	TempInput	TempInput

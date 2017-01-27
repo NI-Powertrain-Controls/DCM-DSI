@@ -37,6 +37,7 @@
 		<Item Name="Hardware" Type="Folder">
 			<Item Name="Hardware-CalPointConstants.vi" Type="VI" URL="../SubVIs/Hardware-CalPointConstants.vi"/>
 			<Item Name="Hardware-DI-iPhaseLearn.vi" Type="VI" URL="../SubVIs/Hardware-DI-iPhaseLearn.vi"/>
+			<Item Name="Hardware-DI-MinSwitchTime.vi" Type="VI" URL="../SubVIs/Hardware-DI-MinSwitchTime.vi"/>
 			<Item Name="Hardware-DIA-iPhaseCalPoints.vi" Type="VI" URL="../SubVIs/Hardware-DIA-iPhaseCalPoints.vi"/>
 			<Item Name="Hardware-DIA.vi" Type="VI" URL="../SubVIs/Hardware-DIA.vi"/>
 			<Item Name="Hardware-DIACmdCalPoints.vi" Type="VI" URL="../SubVIs/Hardware-DIACmdCalPoints.vi"/>
@@ -47,6 +48,7 @@
 			<Item Name="Hardware-DiffIO.vi" Type="VI" URL="../SubVIs/Hardware-DiffIO.vi"/>
 			<Item Name="Hardware-DiffIOResultsCalPoints.vi" Type="VI" URL="../SubVIs/Hardware-DiffIOResultsCalPoints.vi"/>
 			<Item Name="Hardware-DiffIOSetupCalPoints.vi" Type="VI" URL="../SubVIs/Hardware-DiffIOSetupCalPoints.vi"/>
+			<Item Name="Hardware-DIScope-Snapshot.vi" Type="VI" URL="../SubVIs/Hardware-DIScope-Snapshot.vi"/>
 			<Item Name="Hardware-DIScope.vi" Type="VI" URL="../SubVIs/Hardware-DIScope.vi"/>
 			<Item Name="Hardware-EPTxControlCalPoints.vi" Type="VI" URL="../SubVIs/Hardware-EPTxControlCalPoints.vi"/>
 			<Item Name="Hardware-EPTxData.vi" Type="VI" URL="../SubVIs/Hardware-EPTxData.vi"/>
@@ -75,6 +77,7 @@
 			<Item Name="ChangeIndicator_RT.vi" Type="VI" URL="../SubVIs/Support/ChangeIndicator_RT.vi"/>
 			<Item Name="DecodeCANPayload.vi" Type="VI" URL="../SubVIs/Support/DecodeCANPayload.vi"/>
 			<Item Name="FormatCANPayload.vi" Type="VI" URL="../SubVIs/Support/FormatCANPayload.vi"/>
+			<Item Name="Hysteresis RT.vi" Type="VI" URL="../SubVIs/Support/Hysteresis RT.vi"/>
 			<Item Name="Learn DI Profile RT.vi" Type="VI" URL="../SubVIs/Support/Learn DI Profile RT.vi"/>
 			<Item Name="ListIDs.vi" Type="VI" URL="../SubVIs/Support/ListIDs.vi"/>
 			<Item Name="Min-Max Finder.vi" Type="VI" URL="../SubVIs/Support/Min-Max Finder.vi"/>
@@ -89,6 +92,7 @@
 			<Item Name="System-CAN-Interface.vi" Type="VI" URL="../SubVIs/System-CAN-Interface.vi"/>
 			<Item Name="System-EngineRunTime.vi" Type="VI" URL="../SubVIs/System-EngineRunTime.vi"/>
 			<Item Name="System-ExecInfo.vi" Type="VI" URL="../SubVIs/System-ExecInfo.vi"/>
+			<Item Name="System-LoadCalibration.vi" Type="VI" URL="../SubVIs/System-LoadCalibration.vi"/>
 			<Item Name="System-Plot-UniversalCP.vi" Type="VI" URL="../SubVIs/System-Plot-UniversalCP.vi"/>
 			<Item Name="System-Plot.vi" Type="VI" URL="../SubVIs/System-Plot.vi"/>
 			<Item Name="System-TDK-HVPS.vi" Type="VI" URL="../SubVIs/System-TDK-HVPS.vi"/>
@@ -99,5 +103,4 @@
 	<Item Name="Engine-Out.vi" Type="VI" URL="../Engine-Out.vi"/>
 	<Item Name="Hardware-DCM-23XX-Cmd.vi" Type="VI" URL="../Hardware-DCM-23XX-Cmd.vi"/>
 	<Item Name="Hardware-DCM-23XX-System.vi" Type="VI" URL="../Hardware-DCM-23XX-System.vi"/>
-	<Item Name="System-LoadCalibration.vi" Type="VI" URL="../SubVIs/System-LoadCalibration.vi"/>
 </Library>
