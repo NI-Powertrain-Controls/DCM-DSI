@@ -278,6 +278,7 @@
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy Host to SCM Data.vi</Property>
 				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/Utility/Update version.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{56831944-EC47-455C-9451-4DE99FABFD3E}</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">2016</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Bld_version.patch" Type="Int">11</Property>
@@ -292,7 +293,7 @@
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].destinationIndex" Type="Int">1</Property>
-				<Property Name="Source[0].itemID" Type="Str">{AE6372D9-E958-4848-85D8-F2EAA7BB79D4}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{57A9B600-C9CA-4901-8EEA-E7E14ABF349E}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
