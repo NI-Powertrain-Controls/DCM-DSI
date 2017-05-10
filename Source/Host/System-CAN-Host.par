@@ -7,7 +7,6 @@ HW	CAN	QueueLength	QueueLength
 HW	CAN	Read_ActIDs	Read_ActIDs
 HW	CAN	Read_IDs	Read_IDs
 HW	CAN	Read_Values	Read_Values
-HW	CAN	ReadElements	ReadElements
 HW	CAN	ReadError	ReadError
 HW	CAN	ReadFramesInfo	ReadFramesInfo
 HW	CAN	Reset	Reset
