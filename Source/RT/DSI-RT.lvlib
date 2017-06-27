@@ -107,5 +107,4 @@
 	<Item Name="Hardware-DCM-23XX-Cmd.vi" Type="VI" URL="../Hardware-DCM-23XX-Cmd.vi"/>
 	<Item Name="Hardware-DCM-23XX-System.vi" Type="VI" URL="../Hardware-DCM-23XX-System.vi"/>
 	<Item Name="ProcessCANRead.vi" Type="VI" URL="../SubVIs/Support/ProcessCANRead.vi"/>
-	<Item Name="ProcessCANWrite.vi" Type="VI" URL="../SubVIs/Support/ProcessCANWrite.vi"/>
 </Library>

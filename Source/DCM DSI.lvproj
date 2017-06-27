@@ -36,13 +36,13 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="DCM Tools" Type="Folder">
-			<Item Name="Calibration" Type="Folder" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2016/project/DCM/Calibration">
+			<Item Name="Calibration" Type="Folder" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2016/project/DCM/Calibration">
 				<Property Name="NI.DISK" Type="Bool">true</Property>
 			</Item>
-			<Item Name="DI Simulation" Type="Folder" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2016/project/DCM/DI Simulation">
+			<Item Name="DI Simulation" Type="Folder" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2016/project/DCM/DI Simulation">
 				<Property Name="NI.DISK" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Firmware Update" Type="Folder" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2016/project/DCM/Firmware Update">
+			<Item Name="Firmware Update" Type="Folder" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2016/project/DCM/Firmware Update">
 				<Property Name="NI.DISK" Type="Bool">true</Property>
 			</Item>
 		</Item>
@@ -216,11 +216,11 @@
 				<Item Name="LVPositionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPositionTypeDef.ctl"/>
 				<Item Name="CalPoint ID - V4.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/Software Calibration Management/xSCM/Servers/Console-V4/CalPoint ID - V4.ctl"/>
 				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
-				<Item Name="DCM - FPGA - Calibration.lvbitx" Type="Document" URL="/&lt;vilib&gt;/Powertrain Controls/Device Drivers/DCM/Top Level/FPGA Bitfiles/DCM - FPGA - Calibration.lvbitx"/>
-				<Item Name="DCM - FPGA - 2316 - RevD.lvbitx" Type="Document" URL="/&lt;vilib&gt;/Powertrain Controls/Device Drivers/DCM/Top Level/FPGA Bitfiles/DCM - FPGA - 2316 - RevD.lvbitx"/>
 				<Item Name="Open a Document on Disk.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open a Document on Disk.vi"/>
-				<Item Name="DCM - FPGA - 2316 - RevE.lvbitx" Type="Document" URL="/&lt;vilib&gt;/Powertrain Controls/Device Drivers/DCM/Top Level/FPGA Bitfiles/DCM - FPGA - 2316 - RevE.lvbitx"/>
 				<Item Name="DCM - RT - RevE.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Powertrain Controls/Device Drivers/DCM/RevE/RT/DCM - RT - RevE.lvclass"/>
+				<Item Name="DCM - FPGA - 2316 - RevD.lvbitx" Type="Document" URL="/&lt;vilib&gt;/Powertrain Controls/Device Drivers/DCM/Top Level/FPGA Bitfiles/DCM - FPGA - 2316 - RevD.lvbitx"/>
+				<Item Name="DCM - FPGA - Calibration.lvbitx" Type="Document" URL="/&lt;vilib&gt;/Powertrain Controls/Device Drivers/DCM/Top Level/FPGA Bitfiles/DCM - FPGA - Calibration.lvbitx"/>
+				<Item Name="DCM - FPGA - 2316 - RevE.lvbitx" Type="Document" URL="/&lt;vilib&gt;/Powertrain Controls/Device Drivers/DCM/Top Level/FPGA Bitfiles/DCM - FPGA - 2316 - RevE.lvbitx"/>
 			</Item>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -278,9 +278,10 @@
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy Host to SCM Data.vi</Property>
 				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/Utility/Update version.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{56831944-EC47-455C-9451-4DE99FABFD3E}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">2016</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
-				<Property Name="Bld_version.patch" Type="Int">14</Property>
+				<Property Name="Bld_version.patch" Type="Int">12</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../Builds/DCM-DSI/DSI Host</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -292,7 +293,7 @@
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].destinationIndex" Type="Int">1</Property>
-				<Property Name="Source[0].itemID" Type="Str">{103A160E-FFCE-4EDD-B0C3-FD06C75F2EE6}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{AF38BB1F-99B8-422A-A8E4-51EA2F207115}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
@@ -332,7 +333,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{087FA010-3505-4BE4-A5B3-89461539348B}</Property>
-				<Property Name="Bld_version.build" Type="Int">271</Property>
+				<Property Name="Bld_version.build" Type="Int">270</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../Builds/DCM-DSI/DCM Tools</Property>
@@ -363,7 +364,7 @@
 	</Item>
 	<Item Name="DCM" Type="RT Single-Board RIO">
 		<Property Name="alias.name" Type="Str">DCM</Property>
-		<Property Name="alias.value" Type="Str">10.15.1.42</Property>
+		<Property Name="alias.value" Type="Str">0.0.0.0</Property>
 		<Property Name="CCSymbols" Type="Str">OS,Linux;CPU,ARM;DeviceCode,775E;TARGET_TYPE,RT;</Property>
 		<Property Name="crio.ControllerPID" Type="Str">775E</Property>
 		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
@@ -629,7 +630,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8AA94BEE-FDA3-4658-845D-6D2D79102180}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">456</Property>
+				<Property Name="Bld_version.build" Type="Int">452</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
